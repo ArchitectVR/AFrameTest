@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="sample-obj" src="Objetos/house.obj"></a-asset-item>
+        <a-asset-item id="sample-mtl" src="Objetos/house.mtl"></a-asset-item>
+      </a-assets>
+      <!--Creacion del objeto para su renderizacion-->
+      <a-obj-model src="#sample-obj" mtl="#sample-mtl"></a-obj-model>
+    </a-scene>
+  </body>
+</html>
